@@ -5,6 +5,7 @@ out/coverage/*
 cmake-build-*/
 conan-cache/
 compile_commands.json
+.cache/
 
 # User spesific settings
 CMakeUserPresets.json
