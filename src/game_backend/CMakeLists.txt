@@ -11,6 +11,7 @@ target_link_system_libraries(
           CLI11::CLI11
           fmt::fmt
           spdlog::spdlog
-          lefticus::tools)
+          lefticus::tools
+          EnTT::EnTT)
 
 target_include_directories(tdbackend PRIVATE "${CMAKE_BINARY_DIR}/configured_files/include")
