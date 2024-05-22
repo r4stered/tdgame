@@ -40,4 +40,15 @@ function(tdgame_setup_dependencies)
     cpmaddpackage("gh:skypjack/entt@3.13.2")
   endif()
 
+
+  if(NOT TARGET raylib)
+    cpmaddpackage(
+      NAME
+      raylib
+      GIT_TAG
+      5.0
+      GITHUB_REPOSITORY
+      "raysan5/raylib")
+  endif()
+
 endfunction()

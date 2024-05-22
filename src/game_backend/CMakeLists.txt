@@ -12,6 +12,7 @@ target_link_system_libraries(
           fmt::fmt
           spdlog::spdlog
           lefticus::tools
-          EnTT::EnTT)
+          EnTT::EnTT
+          raylib)
 
 target_include_directories(tdbackend PRIVATE "${CMAKE_BINARY_DIR}/configured_files/include")
